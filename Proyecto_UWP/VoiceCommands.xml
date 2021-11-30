@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="https://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="es-es" Name="HoLCommandSet es-es">
+    <AppName>Netvids</AppName>
+    <CommandPrefix>Hola cortana, </CommandPrefix>
+    <Example>ejecuta</Example>
+
+    <Command Name="LaunchApp">
+      <Example>ejecuta</Example>
+      <ListenFor>ejecuta</ListenFor>
+      <Feedback>De acuerdo, abriendo la aplicación</Feedback>
+      <VoiceCommandService Target="CortanaBackgroundTask" />
+    </Command>
+    <PhraseTopic Label="UserCommand" Scenario="Natural Language"> </PhraseTopic>
+
+  </CommandSet>
+
+</VoiceCommands>

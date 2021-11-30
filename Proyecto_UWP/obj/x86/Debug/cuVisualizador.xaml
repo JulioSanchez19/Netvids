@@ -1,0 +1,166 @@
+﻿<UserControl x:ConnectionId='1' x:Name="userControl"
+    x:Class="Proyecto_UWP.cuVisualizador"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Proyecto_UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="250"                                                             MinWidth="200" MinHeight="250" Width="250" Height="300">
+    <UserControl.Resources>
+        <Storyboard x:ConnectionId='2' x:Name="sbZoomIn">
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="imgPelicula" Storyboard.TargetProperty="(FrameworkElement.Width)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="250"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="imgPelicula" Storyboard.TargetProperty="(FrameworkElement.Height)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="145"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="190"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:ConnectionId='3' x:Name="sbFav">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="path" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visible"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.1000000" Value="Collapsed"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="path1" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visible"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.1000000" Value="Collapsed"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="path2" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visible"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.1000000" Value="Collapsed"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="path3" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visible"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.1000000" Value="Collapsed"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="path4" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visible"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.1000000" Value="Collapsed"/>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="path" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="19"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="path" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="path1" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-14.75"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="path1" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-13.75"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="path2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="11"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="path2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-0.75"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="path3" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-18.25"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="path3" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="3.5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="path4" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="14.75"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="path4" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-12.5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="path2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="-136.48"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="-136.701"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:ConnectionId='4' x:Name="sbZoomOut">
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="imgPelicula" Storyboard.TargetProperty="(FrameworkElement.Width)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="250"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="imgPelicula" Storyboard.TargetProperty="(FrameworkElement.Height)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="190"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.3000000" Value="145"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+
+    <Grid x:ConnectionId='5' x:Name="grid" Width="250" Height="300">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/23221.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="33*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+        <Image x:ConnectionId='6' x:Name="btnInfo" Source="/Images/information.png" Grid.Row="2" Height="34" Width="66"                              Margin="0,12,184,8">
+        </Image>
+        <Image x:ConnectionId='7' x:Name="imgAñadir" Grid.Row="2" Height="34" Width="55" Margin="195,12,0,8" Source="/Images/starVacia.png"                                  />
+        <TextBlock x:ConnectionId='8' x:Name="tbTitulo" HorizontalAlignment="Stretch" Grid.Row="1" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Stretch" TextAlignment="Center" FontWeight="Bold"/>
+        <Image x:ConnectionId='9' x:Name="imgPelicula" HorizontalAlignment="Center" Height="145" VerticalAlignment="Center" Width="250" MaxWidth="280"/>
+        <Image x:ConnectionId='10' x:Name="imgReproducir" HorizontalAlignment="Center" Height="100" Margin="0,61,0,0" VerticalAlignment="Top" Width="100" Source="/Images/playAzul.png" Visibility="Collapsed"                              />
+        <Path x:ConnectionId='11' x:Name="path" Data="M217,215.33333 L228,228.33333" Fill="#FF7FB02A" HorizontalAlignment="Left" Height="14" Margin="260,18,0,0" Grid.Row="2" Stretch="Fill" Stroke="#FFFFC107" UseLayoutRounding="False" VerticalAlignment="Top" Width="12" FocusVisualPrimaryBrush="White" FocusVisualSecondaryBrush="Yellow" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed">
+            <Path.RenderTransform>
+                <CompositeTransform Rotation="-34.081"/>
+            </Path.RenderTransform>
+        </Path>
+        <Path x:ConnectionId='12' x:Name="path1" Data="M217,215.33333 L228,228.33333" Fill="#FF7FB02A" HorizontalAlignment="Left" Height="14" Margin="259,17,0,0" Grid.Row="2" Stretch="Fill" Stroke="#FFFFC107" UseLayoutRounding="False" VerticalAlignment="Top" Width="12" FocusVisualPrimaryBrush="White" FocusVisualSecondaryBrush="Yellow" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed">
+            <Path.RenderTransform>
+                <CompositeTransform Rotation="-2.402"/>
+            </Path.RenderTransform>
+        </Path>
+        <Path x:ConnectionId='13' x:Name="path2" Data="M217,215.33333 L228,228.33333" Fill="#FF7FB02A" HorizontalAlignment="Left" Height="14" Margin="259,18,0,0" Grid.Row="2" Stretch="Fill" Stroke="#FFFFC107" UseLayoutRounding="False" VerticalAlignment="Top" Width="12" FocusVisualPrimaryBrush="White" FocusVisualSecondaryBrush="White" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed">
+            <Path.RenderTransform>
+                <CompositeTransform Rotation="-136.48"/>
+            </Path.RenderTransform>
+        </Path>
+        <Path x:ConnectionId='14' x:Name="path3" Data="M217,215.33333 L228,228.33333" Fill="#FF7FB02A" HorizontalAlignment="Left" Height="14" Margin="258,19,0,0" Grid.Row="2" Stretch="Fill" Stroke="#FFFFC107" UseLayoutRounding="False" VerticalAlignment="Top" Width="12" FocusVisualPrimaryBrush="White" FocusVisualSecondaryBrush="Yellow" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed">
+            <Path.RenderTransform>
+                <CompositeTransform Rotation="-59.576"/>
+            </Path.RenderTransform>
+        </Path>
+        <Path x:ConnectionId='15' x:Name="path4" Data="M217,215.33333 L228,228.33333" Fill="#FF7FB02A" HorizontalAlignment="Left" Height="14" Margin="257,16,0,0" Grid.Row="2" Stretch="Fill" Stroke="#FFFFC107" UseLayoutRounding="False" VerticalAlignment="Top" Width="12" FocusVisualPrimaryBrush="White" FocusVisualSecondaryBrush="Yellow" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed">
+            <Path.RenderTransform>
+                <CompositeTransform Rotation="-89.932"/>
+            </Path.RenderTransform>
+        </Path>
+
+    </Grid>
+</UserControl>
+

@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-V0Q7RSK</Machine>
+    <WindowsUser>aleja</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>1061e1d4-bd9a-4f75-89fe-f708bfe0a6fa</PackageIdentityName>
+    <PackageIdentityPublisher>CN=hp</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>89FDA3FF419ED128C79C805FC0A68EE609B268BFB1C831DAC6F7E434C933DB12</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1061e1d4-bd9a-4f75-89fe-f708bfe0a6fa_1.0.0.0_x86__frh6kvfkqjj2p</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1061e1d4-bd9a-4f75-89fe-f708bfe0a6fa_frh6kvfkqjj2p!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1061e1d4-bd9a-4f75-89fe-f708bfe0a6fa</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=hp</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-30T20:27:30.192</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\Proyecto_UWP.exe">
+      <PackagePath>entrypoint\Proyecto_UWP.exe</PackagePath>
+      <Modified>2021-05-30T20:27:29.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\.nuget\packages\microsoft.toolkit.uwp.notifications\7.0.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.Notifications.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
+      <Modified>2021-03-29T19:42:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2020-02-27T18:16:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T16:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:20.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:20.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:20.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:20.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:22.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.623</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:22.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:22.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:22.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:22.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:22.409</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\23221.png">
+      <PackagePath>Images\23221.png</PackagePath>
+      <Modified>2021-05-29T10:42:50.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\actorPrincipal.png">
+      <PackagePath>Images\actorPrincipal.png</PackagePath>
+      <Modified>2021-05-22T07:00:44.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\director.png">
+      <PackagePath>Images\director.png</PackagePath>
+      <Modified>2021-05-22T06:38:18.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\exit.png">
+      <PackagePath>Images\exit.png</PackagePath>
+      <Modified>2021-05-30T12:15:34.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\fotoPerfil.png">
+      <PackagePath>Images\fotoPerfil.png</PackagePath>
+      <Modified>2021-05-05T08:39:23.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\home.png">
+      <PackagePath>Images\home.png</PackagePath>
+      <Modified>2021-05-29T16:08:53.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\information.png">
+      <PackagePath>Images\information.png</PackagePath>
+      <Modified>2021-05-29T12:13:13.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\inicio.png">
+      <PackagePath>Images\inicio.png</PackagePath>
+      <Modified>2021-05-29T15:52:09.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\inicioWhite.png">
+      <PackagePath>Images\inicioWhite.png</PackagePath>
+      <Modified>2021-05-30T12:15:30.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\logo400.png">
+      <PackagePath>Images\logo400.png</PackagePath>
+      <Modified>2021-05-02T14:32:11.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\logoN400.png">
+      <PackagePath>Images\logoN400.png</PackagePath>
+      <Modified>2021-05-02T15:07:37.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\logoN400Black.png">
+      <PackagePath>Images\logoN400Black.png</PackagePath>
+      <Modified>2021-05-02T15:13:56.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\logoNAzul.png">
+      <PackagePath>Images\logoNAzul.png</PackagePath>
+      <Modified>2021-05-03T10:51:38.183</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\logoNBlueBlack.png">
+      <PackagePath>Images\logoNBlueBlack.png</PackagePath>
+      <Modified>2021-05-05T08:54:41.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\logoNSinFondo.png">
+      <PackagePath>Images\logoNSinFondo.png</PackagePath>
+      <Modified>2021-05-03T09:55:21.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\NDerecha.png">
+      <PackagePath>Images\NDerecha.png</PackagePath>
+      <Modified>2021-05-28T09:16:28.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\NDerechaFit.png">
+      <PackagePath>Images\NDerechaFit.png</PackagePath>
+      <Modified>2021-05-30T15:32:27.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\NIzquierda.png">
+      <PackagePath>Images\NIzquierda.png</PackagePath>
+      <Modified>2021-05-28T09:16:28.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\NIzquierdaFit.png">
+      <PackagePath>Images\NIzquierdaFit.png</PackagePath>
+      <Modified>2021-05-30T15:32:46.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\peliculas.png">
+      <PackagePath>Images\peliculas.png</PackagePath>
+      <Modified>2021-05-29T15:52:09.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\peliculasWhitepng.png">
+      <PackagePath>Images\peliculasWhitepng.png</PackagePath>
+      <Modified>2021-05-30T12:16:00.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\perfil.png">
+      <PackagePath>Images\perfil.png</PackagePath>
+      <Modified>2021-05-29T15:52:09.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\perfilWhite.png">
+      <PackagePath>Images\perfilWhite.png</PackagePath>
+      <Modified>2021-05-30T12:16:04.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\play.png">
+      <PackagePath>Images\play.png</PackagePath>
+      <Modified>2021-05-02T08:39:59.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\playAzul.png">
+      <PackagePath>Images\playAzul.png</PackagePath>
+      <Modified>2021-05-04T23:07:59.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\series.png">
+      <PackagePath>Images\series.png</PackagePath>
+      <Modified>2021-05-29T15:52:09.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\seriesWhite.png">
+      <PackagePath>Images\seriesWhite.png</PackagePath>
+      <Modified>2021-05-30T12:15:53.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\star.png">
+      <PackagePath>Images\star.png</PackagePath>
+      <Modified>2021-05-29T11:12:28.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\starVacia.png">
+      <PackagePath>Images\starVacia.png</PackagePath>
+      <Modified>2021-05-29T11:12:28.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2021-02-16T22:02:22.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:22.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.702</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-05-05T09:05:21.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\d0da784e0f9f684a6aed86b99517a0cc.jpg">
+      <PackagePath>Images\d0da784e0f9f684a6aed86b99517a0cc.jpg</PackagePath>
+      <Modified>2021-05-28T23:36:00.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\fondo.jpg">
+      <PackagePath>Images\fondo.jpg</PackagePath>
+      <Modified>2021-05-03T09:52:21.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\FondoAzul.jpg">
+      <PackagePath>Images\FondoAzul.jpg</PackagePath>
+      <Modified>2021-05-03T10:17:07.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\goodfellas.jpg">
+      <PackagePath>Images\goodfellas.jpg</PackagePath>
+      <Modified>2021-05-02T15:44:30.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\logoBlue.jpg">
+      <PackagePath>Images\logoBlue.jpg</PackagePath>
+      <Modified>2021-05-05T09:04:16.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\peakyBlinders150.jpg">
+      <PackagePath>Images\peakyBlinders150.jpg</PackagePath>
+      <Modified>2021-05-30T19:53:57.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Images\ws_Blue_1280x1024.jpg">
+      <PackagePath>Images\ws_Blue_1280x1024.jpg</PackagePath>
+      <Modified>2021-05-28T23:33:12.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2021-05-01T18:52:17.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Resources\Persistencia.xml">
+      <PackagePath>Resources\Persistencia.xml</PackagePath>
+      <Modified>2021-05-30T00:42:43.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\VoiceCommands.xml">
+      <PackagePath>VoiceCommands.xml</PackagePath>
+      <Modified>2021-05-30T19:08:46.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\Videos\trailerGoodfellas.mp4">
+      <PackagePath>Videos\trailerGoodfellas.mp4</PackagePath>
+      <Modified>2021-05-02T09:19:24.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\Proyecto_UWP.xr.xml">
+      <PackagePath>Proyecto_UWP.xr.xml</PackagePath>
+      <Modified>2021-05-30T20:02:05.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2021-05-30T20:27:29.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\animacionEntrada.xbf">
+      <PackagePath>animacionEntrada.xbf</PackagePath>
+      <Modified>2021-05-30T20:27:29.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\cuVisualizador.xbf">
+      <PackagePath>cuVisualizador.xbf</PackagePath>
+      <Modified>2021-05-30T20:27:29.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\login.xbf">
+      <PackagePath>login.xbf</PackagePath>
+      <Modified>2021-05-30T20:27:29.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2021-05-30T20:27:29.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\pageBuscador.xbf">
+      <PackagePath>pageBuscador.xbf</PackagePath>
+      <Modified>2021-05-30T20:27:29.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\pageInfo.xbf">
+      <PackagePath>pageInfo.xbf</PackagePath>
+      <Modified>2021-05-30T20:27:29.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\pagePeliculas.xbf">
+      <PackagePath>pagePeliculas.xbf</PackagePath>
+      <Modified>2021-05-30T20:27:29.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\pagePerfil.xbf">
+      <PackagePath>pagePerfil.xbf</PackagePath>
+      <Modified>2021-05-30T20:27:29.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\pageSeries.xbf">
+      <PackagePath>pageSeries.xbf</PackagePath>
+      <Modified>2021-05-30T20:27:29.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\reproductor.xbf">
+      <PackagePath>reproductor.xbf</PackagePath>
+      <Modified>2021-05-30T20:27:29.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T15:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-05-30T19:54:31.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aleja\Desktop\Proyecto_UWP\Proyecto_UWP\bin\x86\Debug\Core\Proyecto_UWP.exe">
+      <PackagePath>Proyecto_UWP.exe</PackagePath>
+      <Modified>2021-05-30T20:27:30.180</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\aleja\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aleja\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\aleja\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aleja\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\aleja\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aleja\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\aleja\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aleja\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\aleja\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aleja\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\aleja\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aleja\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

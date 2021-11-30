@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="Proyecto_UWP.pagePeliculas"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Proyecto_UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FFA5BFDE" FocusVisualPrimaryBrush="#FF3B83BD">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <SplitView x:Name="svMenu" Grid.Row="1" IsPaneOpen="True" CompactPaneLength="0"  DisplayMode="CompactInline" OpenPaneLength="120">
+            <SplitView.Pane>
+
+                <Grid>
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF132A68" Offset="0.352"/>
+                            <GradientStop Color="#FF428EA4" Offset="0.543"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="btnRomance" Content="Romance" Grid.Column="0" Margin="0,0,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="20" FocusVisualPrimaryBrush="#FF132A68" Background="#FF132A68" Click="btnRomance_Click" Foreground="White"/>
+                    <Button x:Name="btnComedia" Content="Comedia" Grid.Column="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="20" FocusVisualPrimaryBrush="#FF132A68" Background="#FF132A68" Margin="0,0,0,0" Grid.Row="1" Click="btnComedia_Click" Foreground="White"/>
+                    <Button x:Name="btnTerror" Content="Terror" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="20" FocusVisualPrimaryBrush="#FF132A68" Background="#FF132A68" Grid.Row="2" Margin="0,0,0,0" Grid.Column="0" Click="btnTerror_Click" Foreground="White"/>
+                </Grid>
+
+            </SplitView.Pane>
+            <Grid  Background="#FFA5BFDE">
+                <ScrollViewer Margin="20,20,0,0">
+                    <VariableSizedWrapGrid x:Name="vsgPeliculas" Orientation="Horizontal"/>
+                </ScrollViewer>
+
+            </Grid>
+        </SplitView>
+    </Grid>
+    
+</Page>
